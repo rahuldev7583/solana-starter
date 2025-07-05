@@ -11,6 +11,7 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
 (async () => {
   try {
     // Start here
+   console.log("Mint started");
     const mint = await createMint(
       connection,
       keypair,
